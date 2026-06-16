@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glowing neon center lock symbol inside the safe margins -->
+    <path
+        android:fillColor="#9FFB06"
+        android:pathData="M54,30c-7.2,0 -13,5.8 -13,13v9h-3c-2.2,0 -4,1.8 -4,4v20c0,2.2 1.8,4 4,4h32c2.2,0 4,-1.8 4,-4v-20c0,-2.2 -1.8,-4 -4,-4h-3v-9c0,-7.2 -5.8,-13 -13,-13zM54,35c4.4,0 8,3.6 8,8v9H46v-9c0,-4.4 3.6,-8 8,-8z" />
+    <path
+        android:fillColor="#070707"
+        android:pathData="M54,62m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <!-- Overlay custom lightning spark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,58h8l-10,18v-8h-8z" />
+</vector>

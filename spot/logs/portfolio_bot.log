@@ -1,0 +1,26 @@
+2026-06-15 20:03:26 [INFO] portfolio_main — ============================================================
+2026-06-15 20:03:26 [INFO] portfolio_main —   Portfolio Profit Lock Grid Bot — Starting Up
+2026-06-15 20:03:26 [INFO] portfolio_main —   Coins: 3  |  Target: PCT  |  Capital: $100.00
+2026-06-15 20:03:26 [INFO] portfolio_main — ============================================================
+2026-06-15 20:03:27 [ERROR] src.exchange_connector — ExchangeError: binance {"code":-2008,"msg":"Invalid Api-Key ID."}
+2026-06-15 20:15:21 [INFO] portfolio_main — ============================================================
+2026-06-15 20:15:21 [INFO] portfolio_main —   Portfolio Profit Lock Grid Bot — Starting Up
+2026-06-15 20:15:21 [INFO] portfolio_main —   Coins: 3  |  Target: PCT  |  Capital: $100.00
+2026-06-15 20:15:21 [INFO] portfolio_main — ============================================================
+2026-06-15 20:15:28 [INFO] src.exchange_connector — ExchangeConnector (CCXT) initialised.
+2026-06-15 20:15:28 [INFO] src.portfolio_tracker — PortfolioTracker: database ready at data\portfolio.db.
+2026-06-15 20:15:30 [INFO] src.coin_selector — CoinSelector: selected 3 coins: ['BTCUSDT', 'ETHUSDT', 'WLDUSDT']
+2026-06-15 20:15:30 [INFO] src.portfolio_engine — PortfolioEngine: cycle reset. New starting capital = 1.00 USDT.
+2026-06-15 20:15:30 [INFO] portfolio_main — New cycle started | capital=1.00 USDT | coins=['BTCUSDT', 'ETHUSDT', 'WLDUSDT']
+2026-06-15 20:15:30 [INFO] apscheduler.scheduler — Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-15 20:15:30 [INFO] portfolio_main — Scheduler ready. Running first portfolio cycle immediately…
+2026-06-15 20:15:30 [INFO] portfolio_main — Profit target: 0.50% gain | Max drawdown: 15%
+2026-06-15 20:15:30 [INFO] portfolio_main — ────────────────────────────────────────────────────────────
+2026-06-15 20:15:30 [INFO] portfolio_main — Portfolio cycle start — 17:15:30 UTC | coins=['BTCUSDT', 'ETHUSDT', 'WLDUSDT']
+2026-06-15 20:15:30 [INFO] src.regime_detector — Regime: TRENDING | ADX=47.28 | BB_width=0.0339 | ATR=405.2987
+2026-06-15 20:15:31 [INFO] src.regime_detector — Regime: TRENDING | ADX=57.05 | BB_width=0.1079 | ATR=17.0318
+2026-06-15 20:15:31 [INFO] src.regime_detector — Regime: TRENDING | ADX=49.28 | BB_width=0.1868 | ATR=0.0178
+2026-06-15 20:15:32 [INFO] src.portfolio_engine — Portfolio PnL | net=0.0000 USDT (0.000%) | realized=0.0000 | unrealized=0.0000 | fees=0.0000 | lock=False | safe_mode=False
+2026-06-15 20:15:32 [INFO] portfolio_main — STATE | NetPnL=+0.0000 USDT (0.000%) | OpenOrders=0 | Target=0.50% gain | TodayLocks=0
+2026-06-15 20:15:32 [INFO] apscheduler.scheduler — Added job "Portfolio Profit Lock Cycle (15 min)" to job store "default"
+2026-06-15 20:15:32 [INFO] apscheduler.scheduler — Scheduler started

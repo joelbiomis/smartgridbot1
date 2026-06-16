@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: smart-grid-trader
+    runtime: python
+    repo: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python portfolio_main.py
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: BINANCE_API_KEY
+        sync: false
+      - key: BINANCE_SECRET_KEY
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: INITIAL_BALANCE
+        value: "100.0"
+      - key: GRID_LEVELS
+        value: "6"
+      - key: CAPITAL_PER_GRID
+        value: "12.0"
+      - key: NUM_COINS
+        value: "3"
+      - key: PORTFOLIO_PROFIT_TARGET_PCT
+        value: "0.005"
+      - key: PORTFOLIO_MAX_DRAWDOWN_PCT
+        value: "0.15"
+      - key: MAX_EXPOSURE_PER_COIN_PCT
+        value: "0.30"
